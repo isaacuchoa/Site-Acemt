@@ -1,0 +1,2 @@
+[23-Feb-2014 22:50:26 UTC] PHP Warning:  move_uploaded_file(../imgslideg//34.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Permission denied in /home2/acem/public_html/adm/funcoes/upload.php on line 67
+[23-Feb-2014 22:50:26 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpqefkh2' to '../imgslideg//34.jpg' in /home2/acem/public_html/adm/funcoes/upload.php on line 67

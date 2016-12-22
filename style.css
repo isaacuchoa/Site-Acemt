@@ -1,0 +1,299 @@
+body {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	background-color:#ececec;
+}
+* {margin:0px;padding:0px;}
+.clear{clear:both;}
+#estrutura {
+	margin: 0px auto;
+	text-align: left;
+	width: 800px;
+	
+}
+#topo { height:250px; background-image:url(images/filete.jpg); background-repeat:x; border-bottom:7px solid #e69723;}
+	
+	
+	
+}
+#banner {width:900px; height:250px; margin:0 auto; 			
+	}
+h3{color:#0d679e; padding-top:20px; font-size:16px;}
+/*Menu de navegação do topo*/
+#nav-topo {width:800px; background-color:#fff; height:30px; }
+#menu-topo {}
+#menu-topo ul {width:200px;}
+#menu_topo li{   display:inline; }
+#menu_topo li a {  height:35px; margin-left:50px; list-style:none; text-decoration:none; color:#fff; padding:6px 14px; background-color:#e69723; border-radius:7px; }
+#menu_topo li a:hover {color:#448511; text-decoration:underline;}
+
+#main {
+	
+	background-color:#fff;
+	background-repeat: repeat-x;
+}
+
+/*********************** coluna esquerda **************************/
+#left {
+	width:220px;
+	float:left;
+	display:inline;
+	margin-left:20px;
+		
+}
+#redes_sociais{
+	width:200px;
+	padding-top:10px; padding-bottom:5px; padding-left:15px;
+	}
+#redes_sociais a img {border:none;}
+#jornal{}
+
+
+
+
+/*************************************** Conteudo - lado direito do site ***************************************************/
+
+/********* Contador de visitas*****/
+
+#contador_vis{width:170px; height:88px; background-image:url(images/visitante.jpg); margin-left:18px; margin-bottom:10px;  font-size:11px;}
+#contador{width:140px; padding-left:60px; height:30px; padding-top:50px;}
+/********* Notícias do site em destaque **********/
+#blocoDestaques {margin-top:32px;}
+
+
+/********* Página Notícia Destaque **********/
+h2.meio {
+
+		background: url(images/fundo-topico.jpg);
+		color:#0d679e;
+		
+			}
+			
+/****** Títulos das Seções **********/			
+h2.fundo-topico { 
+				background: url(images/fundo-titulo2.jpg);
+				font-family:Arial,Verdana, Geneva, sans-serif;
+				font-size:12px;
+				padding:5px; 0px; 4px; 3px;
+				margin-bottom:8px;
+				letter-spacing:2px;
+				color:#fff;
+
+				}
+
+#conteudo {
+	float: right;
+	width:480px;
+	margin-right:30px;
+	margin-top:20px;
+}
+.conteudo {
+	width:500px;
+}
+.conteudo h3 {
+	background-image:url(images/welcome.gif);
+	background-repeat:no-repeat;
+	width:400px;
+	height:33px;
+	text-indent:700px;
+	overflow:hidden;
+	border-bottom: 1px dashed #2e2304;
+	margin: 10px 0px 15px 0px;
+	padding: 0px 0px 10px 0px;
+}
+.conteudo p {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	color: #003a65;
+	padding: 10px 0px 0px 6px;
+	font-weight:900;
+}
+.conteudo a {
+	color:#2e260f;
+}
+.conteudo a:hover {
+	color:#cf0002;
+}
+.product {
+	width:530px;
+	margin: 20px 0px;
+}
+.product h3 {
+	background-image:url(images/products.gif);
+	background-repeat:no-repeat;
+	width:530px;
+	height:33px;
+	text-indent:700px;
+	overflow:hidden;
+	border-bottom: 1px dashed #2e2304;
+	margin: 10px 0px 15px 0px;
+	padding: 0px 0px 10px 0px;
+}
+.product a {
+	border: 1px solid #6698bd;
+	display:inline;	
+	float:left;
+	margin: 6px 0px 6px 11px;
+}
+.product a:hover {
+	border: 1px solid #c40000;
+}
+.product img {
+	border: 6px solid #ffffff;
+}
+/***************** Menu ***********************/
+#menu {
+	background-image:url(images/menu.gif);
+	width:200px;
+
+	
+}
+#menu ul {
+	padding: 20px 0px 0px 0px;
+	width:180px;
+	margin-left:15px;
+}
+#menu li {
+	
+	background-repeat: no-repeat;
+	background-position: right center;
+	border-bottom: 1px dotted #2e2304;
+	list-style-type: none;
+	padding: 4px 30px 4px 0px;
+	text-align:left;
+}
+#menu a {
+	font-family: Arial, Helvetica, sans-serif;
+	
+	color: #008700;
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+#menu a:hover {
+	color:#e69723;
+}
+.lastchild{
+	border-bottom: none !important;
+}
+
+/************************** Artigos na Home **********************************/
+#img_home { padding: 20px;}
+#hm_artigos {width:480px; height:100px; padding:0px; margin-top:10px;}
+.art_home{width:80px; font-size:11px; }
+.img_hmNoticias {float:left; padding-left:10px; padding-right:28px}
+.img_hmNoticias img{border: 1px #060 solid}
+.img_hmNoticias a {text-decoration:none; color:#006600;}
+.img_hmNoticias a:hover {font-weight:bold;}
+.img_hmNoticias a:hover img{border: 1px #CCCCCC solid;}
+
+/***************** agenda ***********************/
+
+#agenda-topic{ width:480px; padding:0px; margin-top:18px;}
+#tit_agenda{ color:#8dbe41; font-size:14px; background-color:#E1FFE1; border-top:1px solid #79FF79; border-bottom:1px solid #79FF79; padding: 2px; 0px; 2px; 2px;  }
+#tit_agenda a {text-decoration:none; color:#006600;}
+#tit_agenda a:hover {font-weight:bold;}
+.data_evento{color:#999; font-size:10px; margin-top:5px;}
+.evento { font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#009F00; margin-bottom:13px;}
+.evento a { font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#00B300; text-decoration:none;}
+.evento a:hover {text-decoration:underline; color:#005E00;}
+
+
+/**************** Página História ********************/ 
+#historia {font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#005B00; line-height:22px; margin-top:10px;}
+
+
+/****************** Página Diretoria *******************/
+#diretoria { font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#005B00; margin-top:10px}
+
+/****************** Página Bibliografia *******************/
+#bibliografia {font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#005B00; line-height:18px;}
+
+/****************** Página Estatuto *******************/
+img.estatuto {display:block; margin-bottom:17px;}
+#estatuto {margin-top:20px; margin-left:10px;}
+
+/****************** Links *******************/
+#links a {text-decoration:none; font-family:Verdana, Geneva, sans-serif; line-height:20px; color:#600;}
+#links a:hover {text-decoration:underline; color:#003;}
+
+/****************** Fotos *******************/
+.img_fotos {margin-top:7px; margin-right:2px; margin-bottom:5px; margin-left:9px; float:left;}
+
+
+/***************** rodape ***********************/
+#rodape {
+	border-top:6px #e69723 solid;
+	background-color:#008700;
+	height:80px;
+	
+}
+
+#copyright {
+	/**background-image:url(images/copyright.jpg);
+	background-repeat:no-repeat;
+	width:500px;
+	height:73px;**/
+	display:inline;
+	margin-left:256px;
+	float:left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	color: #fff;
+	padding: 30px 20px 0px 20px;
+	text-align:center;
+}
+#copyright a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #463d16;
+}
+
+
+
+/************************************************* Contato ****************************************/
+#texto-contato p {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000060; margin-bottom:9px; }
+#fale {width:450px; background:#ffffff; float:left; margin-left:5px;}
+#fale h4 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000060; padding-left:2px; margin-bottom:5px; border-bottom:solid 2px #00f0f0; border-top:solid 1px #00f0f0; padding-top:2px; padding-bottom:3px; background:#f8f8f8;}
+#fale-conteudo p {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000030; margin-top:7px; margin-right:2px; margin-bottom:2px; margin-left:2px; }
+#fale-conteudo {margin-top:7px; margin-left:25px;}
+
+fieldset {border:none; width:300px;}
+label {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000033;}
+input.campoform {width:267px; border:0; color:#000099;}
+.campoform {background:url(images/fundo_input.gif) no-repeat center; padding:10px 20px; width:287px; border:none;}
+input:focus {color:#000099;}
+#enviar {width:71px; height:22px; float:right;}
+
+
+/************************************************* Busca na home ****************************************/
+#busca-servicos {width:480px; background:#D5FFD5; border-left:solid 1px #00f0f0; border-right:solid 1px #00f0f0; border-bottom:solid 1px #00f0f0; border-top:solid 1px #00f0f0; margin-top:12px; margin-bottom:10px;}
+#busca-servicos h5 {line-height:16px;}
+.campo-busca {color:#888888; border:1px solid #65a80c;}
+#busca-servicos h5 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#000055; padding-top:2px; padding-left:3px; margin-bottom:5px;}
+#busca-servicos input {margin-left:2px; margin-bottom:2px;}
+#alvo {width:450px; margin-top:5px;}
+#busca-empresa {background-color:#ffffff;}
+#busca-empresa p {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#000030; padding-bottom:2px;}
+#busca-empresa img {padding-top:3px; padding-left:2px; padding-right:2px;}
+#busca-empresa p.titulo-empresa {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; background-color:#009933; color:#ffffff; border-bottom:1px; padding-left:2px;}
+#busca-empresa p.desc-empresa {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#000055;}
+#busca-empresa p.end-empresa {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#993300; margin-left:1px;}
+#busca-empresa p.end-tel {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#000055; margin-left:1px;}
+#busca-empresa p.end-web {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#000055; margin-left:1px;}
+#busca-empresa p.end-web a {text-decoration:none; color:#000055; margin-left:1px;}
+#busca-empresa p.end-web a:hover {text-decoration:underline; color:#0000FF; margin-left:1px;}
+#busca-empresa p.end-mapa {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#7c7c7c; margin-bottom:3px; margin-left:1px;}
+#busca-empresa p.end-mapa a {text-decoration:none; color:#7c7c7c; margin-left:1px;}
+#busca-empresa p.end-mapa a:hover {text-decoration:underline; color:#0000FF; margin-left:1px;}
+#loading {width:130px;}
+
+
+/***************** Slide de notícias na Index ***********************/
+
+.slide  {position: absolute; top: 0px; left: 0px; display: none; z-index: 3; opacity: 0; width: 400px; height: 215px;}

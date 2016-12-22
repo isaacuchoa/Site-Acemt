@@ -1,0 +1,104 @@
+/* ESTRUTURA DO SITE */
+
+* {margin:0; padding:0}
+
+#estrutura {width:770px; margin:0 auto;}
+
+
+
+
+
+/* BANNER SUPERIOR */
+#topo {width:770px; height:198px; background:#ffffff; margin-bottom:3px;}
+
+
+
+/* COLUNA ESQUERDA */
+#col_esquerda {width:100px; float:left; background:#a6ffff; margin-right:3px;}
+#col_esquerda ul {margin-left:6px;}
+
+
+#col_esquerda h5 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#000000; padding-left:1px; padding-bottom:4px; padding-top:2px; background-color:#ffcc00;}
+
+#col_esquerda h3 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; padding-top:4px; }
+#col_esquerda h4 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; padding-top:4px; padding-left:2px; padding-bottom:2px; color:#000033;}
+#col_esquerda h4 a {text-decoration:none; color:#000033;}
+#col_esquerda h4 a:hover {text-decoration:underline; color:#0000FF;}
+
+/* Menu Vertical */
+#menu {
+	width:105px;   
+	overflow:auto;	
+	}
+#menu h3 {
+	font-size:10px; 
+	cursor:pointer;
+	line-height:18px;
+	padding-left:20px;
+	margin:1px 0;
+	background: #fff9e1 url(../images/mais.gif) 3px center no-repeat;
+	border-left: 5px solid #000000;
+	}	
+#menu  h3.corrente { 
+	background:#fff3bb url(../images/menos.gif) 3px center no-repeat;
+	}	
+#menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;           
+	}
+#menu li a {
+	background: #ffffff url(images/seta.gif) no-repeat 98%;
+	border-left: 3px solid #555555;
+	color: #333;
+	text-decoration: none;
+	margin-bottom:1px;
+	padding: 3px 15px 3px 3px;
+	display: block;
+	}
+#menu li a:hover {
+	background: #f7f7f7 url(seta.gif) no-repeat 98%;
+	color: #000066;
+	border-left: 5px solid #cad2dd;
+	}
+* html #menu h3, * html #menu h3.corrente { 
+	background-position: 8px center;
+	}	
+*:first-child+html #menu h3, 
+*:first-child+html #menu  h3.corrente { 
+	background-position: 8px center;
+	}	
+
+
+
+/* CONTEÚDO DA ÁREA ADMINISTRATIVA NO MEIO */
+#meio-site {width:660px; background:#f7f7f7; margin-left:3px; float:left;}
+
+
+/* TEXTOS DOS FORMULÁRIOS */
+.conteudos {
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:12px;
+				color:#333;
+			}
+
+
+/* COLUNA DIREITA */
+
+#col_direita {width:160px;float:right; background:url(../images/fundo-direito.gif) repeat-y;}
+
+
+/*************************** Novidades *************************************/
+
+
+/************** NUMEROS DA PAGINAÇÃO ***************/
+#paginacao{clear:both; text-align:center;}
+#paginacao ul{margin:10px 0; display:inline;}
+#paginacao li{list-style:none; margin:1px; padding:6px 0; display:inline;}
+#paginacao li a{padding:6px; background:#ffe67d; color:#ffffff; text-decoration:none; font-size:11px; font-weight:bold;}
+#paginacao li a:hover{ background:#ffcc00; color:#FFF;}
+
+
+/* RODAPE DO SITE */
+#rodape { width:770px; height:30px; clear:both; }
+
